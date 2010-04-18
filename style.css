@@ -1,0 +1,61 @@
+/*
+ * Unless otherwise noted, this code is licensed under the MIT license
+ * http://changedmy.name/index.php?cat=messages&id=2#code
+ */
+
+body {
+    color: white;
+    line-height: 125%;
+}
+#content p, pre, form, h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+pre {
+    border: black dashed 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+blockquote {
+    border: black dashed 2px;
+    padding: 5px 10px 5px 10px;
+    background-color: #637f8f;
+}
+blockquote div {
+    text-align: right;
+}
+blockquote li {
+    list-style-type: none;
+    margin: 8px 0px 8px -20px;
+}
+#content img {
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+a {
+    color: white;
+}
+a:visited {
+    color: #cee0ea;
+}
+#right {
+    /*padding: 3px;*/
+}
+#right div {
+    margin-top: 8px;
+}
+#footer {
+    text-align: center;
+    padding-top: .5em;
+}
+#mit, #cc {
+    padding-left: 10px;
+    display: none;
+}
+#mit_hide, #cc_hide {
+    display: none;
+}
+ul {
+    list-style: none;
+}

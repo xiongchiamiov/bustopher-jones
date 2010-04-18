@@ -1,0 +1,5 @@
+* edit page - when adding new page, give it an id after submitting
+* trim number of entries in recent updates
+* fix padding issues that make me put everything in <p></p>
+* in html tuts, have next and previous links
+* implement ALA email obfuscation awesomeness

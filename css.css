@@ -1,0 +1,104 @@
+/*
+ * Unless otherwise noted, this code is licensed under the MIT license
+ * http://changedmy.name/index.php?cat=messages&id=2#code
+ */
+
+/*
+ * this layout was originally the 2-column fixed layout from CSSeasy.com
+ * http://csseasy.com/layouts/fixed/2column_right.html
+ */
+
+/*
+You are allowed to do whatever you want with this layout. Though I would be pleased if you placed a link on your site to csseasy.com or to profit42.com (best "blog about hacking" ever). Donations are also welcome: paypal@profit42.com (or follow the donation button on csseasy.com)
+*/
+
+body {
+width:750px;
+margin:0 auto;
+margin-top:30px;
+}
+
+
+
+/* ----- HEADER ----- */
+
+
+
+#header {
+width:750px;
+height:150px;
+background-color:#90b0c2;
+}
+
+
+
+/* FAUX LAYOUT WRAPPER */
+
+
+/*
+This div is optional: When you delete it the navigation bar and the content block won't have the same size when one of them has a larger height then the other. I recommend you to leave this faux layout wrapper here.
+
+IMPORTANT: In order to make this work you have to download http://csseasy.com/layouts/fixed/background_4.gif (copy past in your address bar) and place it in the same folder as this html file. DON'T HOTLINK to this file.
+*/
+
+
+#wrapper{
+width:750px;
+background:url(images/bed.png) bottom no-repeat;
+
+/*background:url(images/bgbar.png) repeat-y;*/ /* WARNING: IF YOU CHANGE THE COLORS OF THE LAYOUT YOU HAVE TO CHANGE THIS IMAGE! */
+overflow:auto; /* USE FIREFOX GUYS! WE ONLY NEED THIS LINE BECAUSE INTERNET EXPLODER ISN'T READING CODE PROPERLY */
+margin-top:10px;
+overflow: hidden;
+}
+
+#wrapper2{
+width:750px;
+background:url(images/wallpaper.png) #90b0c2 bottom repeat-x;
+height: auto;
+}
+
+
+
+/* ----- RIGHT DIV ----- */
+
+
+
+#right {
+width:200px;
+min-height:517px; /* for modern browsers */
+height:auto !important; /* for modern browsers */
+height:517px; /* for IE5.x and IE6 */
+/*background:url(images/wallpaper.png) #90b0c2 bottom repeat-x;*/
+float:right;
+padding-bottom: 250px;
+}
+
+
+/* ----- MAIN CONTENT ----- */
+
+
+
+#content {
+width:540px;
+min-height:500px; /* for modern browsers */
+height:auto !important; /* for modern browsers */
+height:500px; /* for IE5.x and IE6 */
+/*background:url(images/wallpaper.png) #90b0c2 bottom repeat-x;*/
+margin-top:10px;
+
+padding-bottom: 250px;
+}
+
+
+
+/* ----- FOOTER ----- */
+
+
+
+#footer {
+width:750px;
+height:4em;
+background-color:#90b0c2;
+margin-top:10px;
+}

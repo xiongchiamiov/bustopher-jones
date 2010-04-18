@@ -1,0 +1,10 @@
+home
+articles (listing of cats)
+    cat1
+    cat2
+    catn
+?thoughts
+about (go to about me)
+    about me
+    about site
+contact
